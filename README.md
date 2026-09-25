@@ -1,5 +1,5 @@
-NixOS Configuration Setup
-Give yui ownership of /etc/nixos:
+#NixOS Configuration Setup
+Give yourself ownership of /etc/nixos:
 
 sudo chown -R xf:users /etc/nixos
 
