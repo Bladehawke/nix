@@ -1,4 +1,5 @@
-#NixOS Configuration Setup
+# NixOS Configuration Setup
+
 Give yourself ownership of /etc/nixos:
 
 sudo chown -R xf:users /etc/nixos
