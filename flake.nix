@@ -59,19 +59,6 @@
           inherit inputs;
         };
       };
-
-      yui = inputs.nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-
-        modules = [
-          ./yui/host-yui.nix
-          ./overlays.nix
-        ];
-
-        specialArgs = {
-          inherit inputs;
-        };
-      };
     };
   };
 }
